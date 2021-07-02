@@ -33,7 +33,7 @@ Project created by <a href="https://github.com/Nikhil-Jr">Nikhil Jr</a> to make 
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Nikhil-Jr/aleenabot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/L7nVhwQh9NX59hqyVswgoG)
+  [![join]()](https://chat.whatsapp.com/L7nVhwQh9NX59hqyVswgoG)
   <div align="center">
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nikhiljr10&repo=AleenaMwol&theme=nightowl)](https://github.com/Nikhil-Jr/aleenabot)
