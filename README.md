@@ -36,7 +36,7 @@ Click WA logo to Join Support Group 👇
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/L7nVhwQh9NX59hqyVswgoG)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nikhiljr10&repo=AleenaMwol&theme=nightowl)](https://github.com/nikhiljr10/AleenaMwol)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nikhiljr10&repo=AleenaMwol&theme=nightowl)](https://github.com/nikhiljr10/aleenabot)
   </div>
     
 ## Setup
@@ -46,7 +46,7 @@ Click WA logo to Join Support Group 👇
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nikhiljr10/AleenaMwol)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nikhiljr10/aleenabot)
      </div>
 <br>
 <br >
