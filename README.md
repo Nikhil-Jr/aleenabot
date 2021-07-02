@@ -1,11 +1,11 @@
 
 <div align="center">
-  <img border-radius: 15px src="https://images.app.goo.gl/h65JRFAyCaQ4j3r7A" alt="" />" width="200" height="200"/>
+  <img border-radius: 15px src="https://ibb.co/PCKxQgr" alt="" />" width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="AleenaMwol" src="https://img.shields.io/badge/AleenaMwol-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/nikhiljr10"><img title="Author" src="https://img.shields.io/badge/Author-nikhiljr10/AleenaMwol?color=red&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Nikhil-Jr"><img title="Author" src="https://img.shields.io/badge/Author-nikhiljr10/AleenaMwol?color=red&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -19,13 +19,13 @@ Project created by <a href="https://github.com/nikhiljr10">Nikhil Jr</a> to make
 ----
 
   <p align="center">
-  <a href="httsp://github.com/nikhiljr10/AleenaMwol">
-    <img src="https://img.shields.io/github/repo-size/nikhiljr10/AleenaMwol?color=green&label=Repo%20total%20size&style=plastic">
+  <a href="httsp://github.com/Nikhil-Jr/aleenabot">
+    <img src="https://img.shields.io/github/repo-size/Nikhil-Jr/aleenabot?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/nikhiljr10/followers"><img title="Followers" src="https://img.shields.io/github/followers/nikhiljr10?color=blue&style=flat-square"></a>
-<a href="https://github.com/nikhiljr10/AleenaMwol/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/nikhiljr10/AleenaMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/nikhiljr10/AleenaMwol/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nikhiljr10/AleenaMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/nikhiljr10/AleenaMwol/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nikhiljr10/AleenaMwol?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/nikhiljr10/followers"><img title="Followers" src="https://img.shields.io/github/followers/Nikhil-Jr10?color=blue&style=flat-square"></a>
+<a href="https://github.com/Nikhil-Jr/aleenabot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Nikhil-Jr/aleenabot?color=blue&style=flat-square"></a>
+<a href="https://github.com/Nikhil-Jr/aleenabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Nikhil-Jr/aleenabot?color=blue&style=flat-square"></a>
+<a href="https://github.com/Nikhil-Jr/aleenabot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Nikhil-Jr/aleenabot?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
@@ -36,7 +36,7 @@ Click WA logo to Join Support Group 👇
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/L7nVhwQh9NX59hqyVswgoG)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nikhiljr10&repo=AleenaMwol&theme=nightowl)](https://github.com/nikhiljr10/aleenabot)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=nikhiljr10&repo=AleenaMwol&theme=nightowl)](https://github.com/Nikhil-Jr/aleenabot)
   </div>
     
 ## Setup
