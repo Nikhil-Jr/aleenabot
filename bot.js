@@ -133,74 +133,18 @@ async function whatsAsena () {
             }
         })
     }, 50000);
-    var biography_var = ''
-    await heroku.get(baseURI + '/config-vars').then(async (vars) => {
-        biography_var = vars.AUTO_BİO
-    });
+    var biography_var = `${config.AUTOBİO}`
     setInterval(async () => { 
         if (biography_var == 'true') {
-            if (conn.user.jid.startsWith('90')) { // Turkey
-                var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else if (conn.user.jid.startsWith('994')) { // Azerbayjan
-                var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else if (conn.user.jid.startsWith('94')) { // Sri Lanka
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else if (conn.user.jid.startsWith('351')) { // Portugal
-                var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else if (conn.user.jid.startsWith('75')) { // Russia
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else if (conn.user.jid.startsWith('7')) { // Kazakhistan
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else if (conn.user.jid.startsWith('998')) { // Uzbekistan 
-                var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else if (conn.user.jid.startsWith('993')) { // Turkmenistan
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)
-            }
-            else {
-                const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-                var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🐺 WhatsAsena'
-                await conn.setStatus(biography)        
+            var getGMTh = new Date().getHours()
+            var getGMTm = new Date().getMinutes()
+            var getGMTs = new Date().getSeconds()
+            let hour = getGMTh < 1 ? '0' + getGMTh : getGMTh
+            let min = getGMTm < 10 ? '0' + getGMTm : getGMTm
+            const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
+            const biography = '📅 ' + utch + '\n⌚ ' + hour + ':' + min + ':' + getGMTs + '\n\n🐺 AleenaMwol'
+            await conn.setStatus(biography)        
         }
     }, 7890);
     var insult = await axios.get('https://gist.githubusercontent.com/phaticusthiccy/f16bbd4ceeb4324d4a727b431a4ef1f2/raw')
