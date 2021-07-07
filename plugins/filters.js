@@ -1,20 +1,4 @@
-Skip to content
-Nikhil-Jr
-/
-AleenaMwol
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-aleenabot/plugins/filters.js
-@lyfe00011
-lyfe00011 Update filters.js
- 7 contributors
-143 lines (131 sloc)  10.3 KB
+
 /* Copyright (C) 2020 farhan-dqz.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -156,16 +140,3 @@ if(pattern.test(message.message)){
     );
 }));
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
