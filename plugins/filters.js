@@ -48,7 +48,7 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
     } else {
         await message.client.sendMessage(message.jid,Lang.DELETED, MessageType.text)
     
-});
+}));
 Asena.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
     if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
@@ -125,7 +125,7 @@ let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
        await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
-}));
+});
     }
 
     var filtreler = await FilterDb.getFilter(message.jid);
